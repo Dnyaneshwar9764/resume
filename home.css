@@ -1,0 +1,342 @@
+@import url('https://fonts.cdnfonts.com/css/pristina');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: linear-gradient(#009688 0%, #009688 130px, #d9dbd5 130px, #d9dbd5 100%); */
+    background: linear-gradient(#0c0d0d 4%, #619994 34%, #7a918f 10%, #0c2022 100%);
+   
+
+}
+
+.container {
+    position: relative;
+    width: 1396px;
+    max-width: 100%;
+    /* height: calc(100vh - 40px); */
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+    display: flex;
+}
+
+.container .leftSide {
+    position: relative;
+    flex: 30%;
+    background: rgb(124 71 71);
+    border-right: 1px solid rgba(0, 0, 0, 0.02);
+
+}
+
+
+.p-img{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+}
+.p-img img{
+    /* max-width: 200px;
+    max-height: 200px; */
+    width: 100%;
+    height: auto;
+    border: 1.8px solid white;
+    border-radius: 50%;
+}
+.details{
+
+    /* text-align: center; */
+    font-family: Pristina;
+    
+    margin-bottom: 10%;
+    
+}
+.details h2{
+    font-weight: unset;
+    font-size: 3vw;
+    color: #cad1d0;
+    margin: 0 0 0 0;
+}
+.details hr{
+    border: 0;
+    background-color:rgb(151, 113, 47);
+    height: 1px;
+    width: 98%;
+    /* margin-left: 0%; */
+}
+.details p{
+    border: unset;
+    margin: 0 0 0 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    /* text-align: center; */
+    font-size: 2vw;
+    color: rgb(154, 150, 143);
+}
+.details h4{
+
+    margin: 0 0 0 0;
+    color: black;
+    font-size: 1.6vw;
+    font-weight: normal;
+   
+}
+
+
+.skills{
+    /* text-align: center; */
+    font-family: Pristina;
+   
+}
+.skills h3{
+    font-weight: unset;
+    font-size: 3vw;
+    color: #cad1d0;
+    margin: 0 0 0 0;
+    
+}
+.skills hr{
+    border: 0;
+    background-color:rgb(151, 113, 47);
+    height: 0.6px;
+    width: 98%;
+    
+}
+.skills h4{
+    margin: 0 0 0 0;
+    width: 100%;
+    font-weight: unset;
+    font-size: 1.7vw;
+    color: rgb(197, 195, 192);
+}
+/* progress bar  */
+.skills .bar{
+    display: block;
+    position: relative;
+    width: 80%;
+    background: #8d8f91;
+    border-radius: 40px;
+    /* border: 0.4px solid rgb(73, 27, 27); */
+    margin-bottom: 10px;
+}
+.skill-bar {
+    width: 100%;
+    height: 0.1vw;
+    background:#541714;
+    display: block;
+    position: relative;
+    border-radius: 40px;
+}
+
+/* SKILL 1 */
+.skill1{
+    width: 80%;       
+}
+.skill2{
+    width: 70%;       
+}
+.skill3{
+    width: 70%;       
+}
+.skill4{
+    width: 60%;       
+}
+.skill5{
+    width: 70%;       
+}
+.skill6{
+    width: 60%;       
+}
+.str{
+    margin-top:10%;
+    width: 80%;
+    font-family: Pristina;
+    color: #cad1d0;
+}
+.str h3{
+    margin: 0 0 0 0;
+    font-size: 2vw;
+    font-weight: lighter;
+}
+.str ul{
+    padding: 0;
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------- */
+
+.container .rightSide {
+    position: relative;
+    flex: 70%;
+   
+    background: antiquewhite;
+}
+
+.container .rightSide::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /*background-color: #009688;*/
+}
+
+
+.h-name{
+    height: 6%;
+    padding: 10%;
+    border-top-right-radius: 100%;
+    background-color: cadetblue;
+    /* margin: 0px 0px 0px 10%;
+    background-image: url(https://www.itprotoday.com/sites/itprotoday.com/files/programming.jpg); */
+}
+.h-name h5{
+    font-family: Pristina;
+    font-weight: unset;
+    font-size: 6vw;
+    margin: 0 0 0 0;
+    /* margin-bottom: 0; */
+}
+.h-name h6{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: unset;
+    font-size: 2vw;
+    margin-top: 5px;
+    text-align: -webkit-center;
+}
+.obj{
+    margin: 0 0 -10%  0;
+    padding: 10%;
+    font-family: Pristina;
+    background-color: #8d8f91;;
+}
+.obj h2{
+    margin: 0 0 10px 0;
+    font-size: 3vw;
+    font-weight: lighter;
+    color: #262824;
+
+}  
+.obj p{
+    
+    font-size: 1.4vw;
+    width: 80%;
+}  
+.edu{
+    
+    margin: 0 0 1% 10%;
+    font-family: Pristina;
+    background-color: #8d8f91;
+    
+}
+.edu h2{
+    margin: 0 0 0 0;
+    font-size: 3vw;
+    font-weight: lighter;
+    color: #d9dbd5;
+}
+.edu h5{
+    font-size: 1.6vw;
+    color: #fff;
+    font-weight: lighter;
+    margin: 15px 0 0 10px;    
+}
+.edu h4{
+    margin: 0 0 0 20px;
+    font-size: 1.4vw;
+    font-weight: lighter;
+    color: #e0e8e7;
+}
+.edu h6{
+    margin: 0 0 0 20px;
+    font-size: 1.3vw;
+    font-weight: lighter;
+    color: aliceblue;
+}
+ hr{
+    border: 0;
+    background-color:rgb(227, 202, 158);
+    height: 1px; 
+    /* background-image: linear-gradient(to right,#040807, rgb(124 71 71), #2e93a2, #651919); */
+    height: 0.6px;
+    width: 100%;
+}
+   
+.work{
+    margin-top: 10%;
+    width: 80%;
+    font-family: Pristina;
+    
+}
+.work h3{
+    margin: 0 0 0 0;
+    font-size: 3vw;
+    font-weight: lighter;
+    color: #cad1d0; 
+}   
+.work h4{
+    
+    font-weight: unset;
+    font-size: 1.4vw;
+    color: #000;
+} 
+.p-skill{
+    width: 90%;
+    margin: 0 0 0 10%;
+    font-family: Pristina;
+    color:#d9dbd5;
+}
+.p-skill h3{
+    margin-top: 5%;
+    margin-bottom: 0;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+.p-skill ul{
+    padding: 0;
+    font-size: 1.4vw;
+}
+.t-p{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    font-weight: lighter;
+    font-family: Pristina;
+    color: #262824;
+}
+.t-p h3{
+    
+    font-size: 3vw;
+    font-weight: lighter;
+    margin: 0 0 0 0;
+}
+.t-p p{
+    margin: 0 0 0 0;
+     font-size: 1.4vw;
+}
+.t-p h4{
+     margin:  0 0 0 0;
+     color: #aca59d;
+     font-size: 1.6vw;
+     font-weight: lighter;
+}
+.t-p ul{
+     margin: 0 0 0 0;
+     font-size: 1.4vw;
+}
+.t-p h5{
+    margin:  0 0 0 0;
+    color: #aca59d;
+    font-size: 1.6vw;
+    font-weight: lighter;
+}
+
